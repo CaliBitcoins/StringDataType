@@ -21,7 +21,7 @@ public class Main {
         String myString = "This is a string";
         System.out.println("myString is equal to " + myString);
 
-        // String value can be changed and saved inline
+        // Strings are immutable - new String created when variable updates
         myString = myString + ", and this is more.";
         System.out.println("myString is equal to " + myString);
 
